@@ -44,6 +44,33 @@ function App() {
               <br />
               <span className="statistic__desc__two">Customers</span>
             </h4>
+            <div className="inp">
+              <input
+                type="text"
+                className="main__input"
+                placeholder="What are you looking for?"
+              />
+              <div className="rec__ico">
+                <img
+                  className="rectangle__inp"
+                  src="/images/rectangleinp.svg"
+                  alt=""
+                />
+                <img className="search__icon" src="/images/search.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="site__main__img">
+            <img
+              className="vector__down"
+              src="/images/vectordown.svg"
+              alt="vector"
+            />
+            <img
+              className="main__rectangle"
+              src="/images/rectangle.svg"
+              alt=""
+            />
           </div>
         </div>
       </main>
