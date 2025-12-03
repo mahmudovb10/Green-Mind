@@ -71,9 +71,33 @@ function App() {
               src="/images/rectangle.svg"
               alt=""
             />
+            <img src="/images/mainFlower.svg" alt="" className="main__flower" />
+            <img src="/images/vectorup.svg" alt="" className="vector__up" />
           </div>
         </div>
       </main>
+      <section className="section">
+        <div className="section__content">
+          <h2 className="section__title">Best Selling Plants</h2>
+          <p className="section__desc">
+            Easiest way to healthy life by buying your favorite plants{" "}
+          </p>
+          <div className="section__flowers">
+            <img src="/images/natural.svg" alt="" className="natural__flower" />
+            <p className="natural__flower__title">Natural Plants</p>
+            <span className="natural__flower__prc">₱ 1,400.00</span>
+          </div>
+          <div className="artificial__flower">
+            <img
+              src="/images/artificial.svg"
+              alt=""
+              className="artificial__flower"
+            />
+            <p className="artificial__title">Artificial Plants</p>
+            <span className="artificial__prc">₱ 900.00</span>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
