@@ -96,6 +96,11 @@ function App() {
             <p className="artificial__title">Artificial Plants</p>
             <span className="artificial__prc">₱ 900.00</span>
           </div>
+          <div className="artif__plants__flower">
+            <img src="/images/artificialPlants.svg" alt="" />
+            <p className="artif__title">Artificial Plants</p>
+            <span className="artif__prc">₱ 3,500.00</span>
+          </div>
         </div>
       </section>
     </div>

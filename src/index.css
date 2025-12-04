@@ -293,3 +293,27 @@ main {
   position: relative;
   bottom: 20.5rem;
 }
+
+.artif__plants__flower {
+  margin-left: 1150px;
+  position: relative;
+  bottom: 70.05rem;
+}
+
+.artif__title {
+  width: 135px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--primary-black);
+}
+
+.artif__prc {
+  width: 88px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--four-black);
+}
