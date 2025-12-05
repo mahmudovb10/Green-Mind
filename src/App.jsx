@@ -102,6 +102,24 @@ function App() {
             <span className="artif__prc">₱ 3,500.00</span>
           </div>
         </div>
+        <div className="section__about">
+          <div className="about__info">
+            <h2 className="about__title">About us</h2>
+            <p className="about__desc">
+              Order now and appreciate the beauty of nature
+            </p>
+          </div>
+          <div className="about__funcs">
+            <div className="large__comp">
+              <img src="/images/large.svg" alt="" className="large__img" />
+              <p className="title large__title">Large Assortment</p>
+              <p className="desc large__desc">
+                we offer many different types of products with fewer variations
+                in each category.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

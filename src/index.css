@@ -265,7 +265,7 @@ main {
   color: var(--four-black);
 }
 .artificial__flower {
-  margin-left: 380px;
+  margin-left: 360px;
   position: relative;
   bottom: 20.8rem;
 }
@@ -295,7 +295,7 @@ main {
 }
 
 .artif__plants__flower {
-  margin-left: 1150px;
+  margin-left: 1080px;
   position: relative;
   bottom: 70.05rem;
 }
@@ -316,4 +316,68 @@ main {
   font-weight: 500;
   font-size: 18px;
   color: var(--four-black);
+}
+
+.about__info {
+  text-align: center;
+  position: relative;
+  bottom: 65rem;
+}
+
+.about__title {
+  width: 147px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--primary-black);
+}
+
+.about__desc {
+  width: 430px;
+  height: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--four-black);
+}
+
+.large__comp {
+  display: flex;
+  flex-direction: column;
+  margin-left: 96px;
+  position: relative;
+  bottom: 60rem;
+}
+
+.large__img {
+  width: 96px;
+  height: 96px;
+  margin-left: 7.2rem;
+}
+
+.title {
+  width: 166px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--average-black);
+  text-align: center;
+  margin-left: 6rem;
+}
+
+.desc {
+  width: 400px;
+  height: 54px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--four-black);
+  text-align: center;
+  margin-top: -1rem;
 }
