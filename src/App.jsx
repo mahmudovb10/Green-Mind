@@ -111,11 +111,34 @@ function App() {
           </div>
           <div className="about__funcs">
             <div className="large__comp">
-              <img src="/images/large.svg" alt="" className="large__img" />
+              <img src="/images/large.svg" alt="" className="img large__img" />
               <p className="title large__title">Large Assortment</p>
               <p className="desc large__desc">
                 we offer many different types of products with fewer variations
                 in each category.
+              </p>
+            </div>
+            <div className="shipping__comp">
+              <img
+                className="img shipping__img"
+                src="/images/shipping.svg"
+                alt=""
+              />
+              <p className="title shipping__title">Fast & Free Shipping</p>
+              <p className="desc shipping__desc">
+                4-day or less delivery time, free shipping and an expedited
+                delivery option.
+              </p>
+            </div>
+            <div className="support__comp">
+              <img
+                className="img support__img"
+                src="/images/support.svg"
+                alt=""
+              />
+              <p className="title support__title">24/7 Support</p>
+              <p className="desc support__desc">
+                answers to any business related inquiry 24/7 and in real-time.
               </p>
             </div>
           </div>
