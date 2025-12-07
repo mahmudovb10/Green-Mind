@@ -29,9 +29,11 @@ function App() {
           />
         </div>
       </header>
+
       <main className="main">
         <div className="main__content">
           <h2 className="main__title">Buy your dream plants</h2>
+
           <div className="site__statistic">
             <h4 className="statistic__numb">
               50+
@@ -39,11 +41,13 @@ function App() {
               <span className="statistic__numb__desc"> Plant Species</span>
             </h4>
             <img className="line__two" src="/images/linetwo.svg" alt="Line" />
+
             <h4 className="statistic__numb__two">
               100+
               <br />
               <span className="statistic__desc__two">Customers</span>
             </h4>
+
             <div className="inp">
               <input
                 type="text"
@@ -60,6 +64,7 @@ function App() {
               </div>
             </div>
           </div>
+
           <div className="site__main__img">
             <img
               className="vector__down"
@@ -76,32 +81,40 @@ function App() {
           </div>
         </div>
       </main>
+
       <section className="section">
         <div className="section__content">
           <h2 className="section__title">Best Selling Plants</h2>
           <p className="section__desc">
-            Easiest way to healthy life by buying your favorite plants{" "}
+            Easiest way to healthy life by buying your favorite plants
           </p>
-          <div className="section__flowers">
-            <img src="/images/natural.svg" alt="" className="natural__flower" />
-            <p className="natural__flower__title">Natural Plants</p>
-            <span className="natural__flower__prc">₱ 1,400.00</span>
+
+          {/* NATURAL */}
+          <div className="card card1">
+            <img src="/images/natural.svg" alt="" className="card_img" />
+            <p className="card_title">Natural Plants</p>
+            <span className="card_price">₱ 1,400.00</span>
           </div>
-          <div className="artificial__flower">
+
+          {/* ARTIFICIAL */}
+          <div className="card card2">
+            <img src="/images/artificial.svg" alt="" className="card_img" />
+            <p className="card_title">Artificial Plants</p>
+            <span className="card_price">₱ 900.00</span>
+          </div>
+
+          {/* ARTIFICIAL BIG */}
+          <div className="card card3">
             <img
-              src="/images/artificial.svg"
+              src="/images/artificialPlants.svg"
               alt=""
-              className="artificial__flower"
+              className="card_img"
             />
-            <p className="artificial__title">Artificial Plants</p>
-            <span className="artificial__prc">₱ 900.00</span>
-          </div>
-          <div className="artif__plants__flower">
-            <img src="/images/artificialPlants.svg" alt="" />
-            <p className="artif__title">Artificial Plants</p>
-            <span className="artif__prc">₱ 3,500.00</span>
+            <p className="card_title">Artificial Plants</p>
+            <span className="card_price">₱ 3,500.00</span>
           </div>
         </div>
+
         <div className="section__about">
           <div className="about__info">
             <h2 className="about__title">About us</h2>
@@ -109,6 +122,7 @@ function App() {
               Order now and appreciate the beauty of nature
             </p>
           </div>
+
           <div className="about__funcs">
             <div className="large__comp">
               <img src="/images/large.svg" alt="" className="img large__img" />
@@ -118,6 +132,7 @@ function App() {
                 in each category.
               </p>
             </div>
+
             <div className="shipping__comp">
               <img
                 className="img shipping__img"
@@ -130,6 +145,7 @@ function App() {
                 delivery option.
               </p>
             </div>
+
             <div className="support__comp">
               <img
                 className="img support__img"

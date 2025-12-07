@@ -1,26 +1,26 @@
 /* poppins-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/poppins-v24-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/poppins-v24-latin-500.woff2") format("woff2");
 }
 /* poppins-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/poppins-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/poppins-v24-latin-700.woff2") format("woff2");
 }
 /* poppins-800 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/poppins-v24-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/poppins-v24-latin-800.woff2") format("woff2");
 }
 
 :root {
@@ -46,6 +46,7 @@ body {
   background-color: var(--primary-background);
 }
 
+/* HEADER */
 header {
   margin-top: 44px;
   margin-left: 96px;
@@ -80,6 +81,7 @@ header {
   margin-left: 1128px;
 }
 
+/* MAIN */
 main {
   margin-left: 96px;
   margin-right: 96px;
@@ -220,6 +222,7 @@ main {
   bottom: 51rem;
 }
 
+/* SECTION */
 .section__title {
   width: 256px;
   height: 96px;
@@ -241,10 +244,53 @@ main {
   margin-left: 110px;
 }
 
-.section__flowers {
-  margin-left: 352px;
+/* FIXED FLOWERS SECTION */
+.section__content {
   position: relative;
-  bottom: 13rem;
+  height: 620px;
+}
+
+.card {
+  position: absolute;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 230px;
+}
+
+.card_title {
+  font-family: Poppins;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.card_price {
+  color: var(--four-black);
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+.card1 {
+  top: 10px;
+  left: 500px;
+}
+
+.card2 {
+  top: 10px;
+  left: 800px;
+}
+
+.card3 {
+  top: 10px;
+  left: 1100px;
+}
+
+.section__flowers {
+  position: absolute;
+  left: 352px;
+  top: 260px;
 }
 
 .natural__flower__title {
@@ -264,71 +310,75 @@ main {
   font-size: 18px;
   color: var(--four-black);
 }
+
+/* SECOND FLOWER */
 .artificial__flower {
-  margin-left: 360px;
-  position: relative;
-  bottom: 20.8rem;
+  position: absolute;
+  left: 740px;
+  top: 40px;
 }
 
 .artificial__title {
-  width: 135px;
-  height: 27px;
+  position: absolute;
+  left: 740px;
+  top: 260px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
-  color: var(--primary-black);
-  margin-left: 380px;
-  position: relative;
-  bottom: 20.5rem;
 }
 
 .artificial__prc {
-  width: 88px;
-  height: 27px;
+  position: absolute;
+  left: 740px;
+  top: 290px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
   color: var(--four-black);
-  margin-left: 380px;
-  position: relative;
-  bottom: 20.5rem;
 }
 
+/* THIRD FLOWER */
 .artif__plants__flower {
-  margin-left: 1080px;
-  position: relative;
-  bottom: 70.05rem;
+  position: absolute;
+  left: 1080px;
+  top: 40px;
 }
 
 .artif__title {
-  width: 135px;
-  height: 27px;
+  position: absolute;
+  left: 1080px;
+  top: 260px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
-  color: var(--primary-black);
 }
 
 .artif__prc {
-  width: 88px;
-  height: 27px;
+  position: absolute;
+  left: 1080px;
+  top: 290px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
   color: var(--four-black);
 }
 
-.about__info {
-  text-align: center;
+/* ABOUT SECTION FIXED */
+.section__about {
   position: relative;
-  bottom: 65rem;
+  height: 520px;
+  margin-top: 80px;
+}
+
+.about__info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 .about__title {
-  width: 147px;
-  height: 48px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Poppins";
   font-weight: 700;
   font-size: 32px;
@@ -336,32 +386,47 @@ main {
 }
 
 .about__desc {
-  width: 430px;
-  height: 27px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
   color: var(--four-black);
 }
 
-.large__comp {
+/* ABOUT BLOCKS */
+.about__funcs {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  height: 340px;
+}
+
+.large__comp,
+.shipping__comp,
+.support__comp {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  margin-left: 96px;
-  position: relative;
-  bottom: 60rem;
+}
+
+.large__comp {
+  left: 96px;
+}
+
+.shipping__comp {
+  left: 520px;
+}
+
+.support__comp {
+  left: 944px;
 }
 
 .img {
   width: 96px;
   height: 96px;
+  margin-left: 8.5rem;
 }
 
 .title {
-  width: 200px;
-  height: 27px;
   font-family: "Poppins";
   font-weight: 700;
   font-size: 18px;
@@ -371,47 +436,10 @@ main {
 
 .desc {
   width: 400px;
-  height: 54px;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 18px;
   color: var(--four-black);
   text-align: center;
-}
-
-.large__title,
-.shipping__title,
-.support__title {
-  margin-left: 6rem;
-}
-
-.large__desc,
-.shipping__desc,
-.support__desc {
   margin-top: -1rem;
-}
-
-.large__img,
-.shipping__img,
-.support__img {
-  width: 96px;
-  height: 96px;
-  margin-left: 7.2rem;
-}
-.shipping__comp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 520px;
-  position: relative;
-  bottom: 73.5rem;
-}
-
-.support__comp {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 944px;
-  position: relative;
-  bottom: 87rem;
 }
