@@ -89,21 +89,18 @@ function App() {
             Easiest way to healthy life by buying your favorite plants
           </p>
 
-          {/* NATURAL */}
           <div className="card card1">
             <img src="/images/natural.svg" alt="" className="card_img" />
             <p className="card_title">Natural Plants</p>
             <span className="card_price">₱ 1,400.00</span>
           </div>
 
-          {/* ARTIFICIAL */}
           <div className="card card2">
             <img src="/images/artificial.svg" alt="" className="card_img" />
             <p className="card_title">Artificial Plants</p>
             <span className="card_price">₱ 900.00</span>
           </div>
 
-          {/* ARTIFICIAL BIG */}
           <div className="card card3">
             <img
               src="/images/artificialPlants.svg"
@@ -160,6 +157,35 @@ function App() {
           </div>
         </div>
       </section>
+      <article className="article">
+        <div className="article__info">
+          <h2 className="article__title">Categories</h2>
+          <p className="article__desc">Find what you are looking for</p>
+        </div>
+        <div className="article__img">
+          <img
+            className="natural__prev"
+            src="/images/naturalPrewiev.svg"
+            alt=""
+          />
+          <p className="flow__title natural__prev__title">Natural Plants</p>
+          <img
+            className="accesoris__prev"
+            src="/images/accesoriesPrewiev.svg"
+            alt=""
+          />
+          <p className="flow__title accesories__title">Plant Accessories</p>
+          <p className="accesories__desc">
+            Horem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <img
+            className="art__pl__img"
+            src="/images/artificialPlantsPrewiev.svg"
+            alt=""
+          />
+          <p className="flow__title artf__prev__title">Artificial Plants</p>
+        </div>
+      </article>
     </div>
   );
 }
