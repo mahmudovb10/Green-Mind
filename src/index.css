@@ -530,3 +530,68 @@ main {
   margin-left: 1097px;
   margin-top: -12.5rem;
 }
+
+.article__btn {
+  width: 147px;
+  height: 51px;
+  border-radius: 8px;
+  background-color: var(--primary-background);
+  border: none;
+  margin-top: 200px;
+  margin-left: 646px;
+}
+
+.article__btn__text {
+  width: 65px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--primary-black);
+}
+
+.btn__arrow {
+  padding: 0 0 0 0;
+}
+
+.footer__title {
+  width: 457px;
+  height: 96px;
+  font-family: "Poppins";
+  font-size: 32px;
+  color: var(--average-black);
+  margin-top: 96px;
+}
+
+.comment {
+  width: 800px;
+  height: 330px;
+  border-radius: 12px;
+  background-color: var(--primary-rgb);
+}
+
+.john__male {
+}
+
+.john__male__comm {
+  width: 704px;
+  height: 81px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--three-black);
+  padding-top: 48px;
+  padding-left: 48px;
+}
+
+.people__vector {
+  padding-top: 10px;
+  padding-left: 48px;
+  z-index: -9;
+}
+
+.john__img {
+  margin-top: -76px;
+  padding-left: 21px;
+  padding-right: 620px;
+}
