@@ -184,8 +184,32 @@ function App() {
             alt=""
           />
           <p className="flow__title artf__prev__title">Artificial Plants</p>
+          <button className="article__btn">
+            <span className="article__btn__text">Explore</span>{" "}
+            <img className="btn__arrow" src="/images/btnArrow.svg" alt="" />{" "}
+          </button>
         </div>
       </article>
+      <footer className="footer">
+        <div className="footer__comments">
+          <h2 className="footer__title">What customers say about GREEMIND?</h2>
+          <div className="comment john__male">
+            <p className="john__male__comm">
+              Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos.
+            </p>
+            <img
+              className="people__vector"
+              src="/images/peopleVector.svg"
+              alt=""
+            />
+            <img className="john__img" src="/images/johnMale.svg" alt="" />
+            <p className="name john__male__name">John Doe</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
