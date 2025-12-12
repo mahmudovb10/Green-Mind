@@ -682,3 +682,37 @@ main {
   padding-top: 98px;
   padding-left: 97px;
 }
+
+.information__branch {
+  padding-left: 892px;
+  margin-top: -325px;
+  column-gap: 24px;
+}
+
+.branch__title {
+  width: 155px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--average-black);
+}
+
+.branch__desc {
+  width: 145px;
+  height: 27px;
+  font-family: "Poppins";
+  font-weight: 400px;
+  font-size: 18px;
+  color: var(--four-black);
+}
+
+.company__branch {
+  padding-left: 1051px;
+  margin-top: -180px;
+}
+
+.contact__branch {
+  padding-left: 1206px;
+  margin-top: -180px;
+}
