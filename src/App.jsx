@@ -271,6 +271,24 @@ function App() {
           <p className="footer__desc">
             2023 all Right Reserved Term of use GREENMIND
           </p>
+          <div className="information__branch">
+            <p className="branch__title infor__title ">Information</p>
+            <p className="branch__desc infor__desc">About</p>
+            <p className="branch__desc infor__desc">Product</p>
+            <p className="branch__desc infor__desc">Blog</p>
+          </div>
+          <div className="company__branch">
+            <p className="branch__title infor__title ">Company</p>
+            <p className="branch__desc infor__desc">Community</p>
+            <p className="branch__desc infor__desc">Career</p>
+            <p className="branch__desc infor__desc">Our story</p>
+          </div>
+          <div className="contact__branch">
+            <p className="branch__title infor__title ">Contact</p>
+            <p className="branch__desc infor__desc">Getting Started</p>
+            <p className="branch__desc infor__desc">Pricing</p>
+            <p className="branch__desc infor__desc">Resources</p>
+          </div>
         </div>
       </footer>
     </div>
